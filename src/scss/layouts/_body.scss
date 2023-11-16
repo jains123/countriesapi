@@ -1,0 +1,50 @@
+main {
+    max-width: 1400px;
+    margin: 0 auto;
+    
+    .countries-wrapper {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        max-width: 1400px;
+        margin: 0 auto;
+    }
+
+
+     .country-container {
+        border-radius: 10px;
+        margin: 4em;
+        width: 250px;
+        min-height: 170px;
+        @include flexbox;
+        flex-direction: column;
+        box-shadow: 0 0.5em 1em -0.125em rgba(10,10,10,.1), 0 0 0 1px rgba(10,10,10,.02);
+
+        img {
+            aspect-ratio: 16/9;
+            flex: .15;
+        }
+
+        .country-info {
+            height: 100%;
+            flex: 1;
+            padding: 2.7em;
+
+            &:nth-child(1) {
+                margin-bottom: 0.7em;
+            }
+
+            div {
+                margin-top: 1.2em;
+                display: grid;
+                place-items: center;
+
+                button {
+                    height: 4rem;
+                }
+            }
+            
+        }
+    }
+}

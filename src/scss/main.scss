@@ -1,0 +1,27 @@
+@import "./src/scss/layouts/__layouts-dir";
+@import "./src/scss/abstracts/__abstracts-dir.scss";
+@import "./src/scss/base/__base-dir.scss";
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+body {
+    min-height: 1400px;
+    margin: 0 auto;
+    background-color: $lightModeBackground;
+    overflow-y: hidden;
+    transition: 0.3s ease-in-out;
+
+}
+
+.wrapper {
+    opacity: .3;
+}

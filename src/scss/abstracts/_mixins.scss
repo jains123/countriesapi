@@ -1,0 +1,49 @@
+//FLEXBOX AND GRID
+
+@mixin flexbox {
+    display: flex;
+}
+
+@mixin flexbox-c-sb {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+@mixin flexbox-c-c {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin flexbox-c-sa {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+@mixin flexbox-sa-sa {
+    display: flex;
+    align-items: center;
+    align-content: space-around;
+    justify-content: space-around;
+}
+
+@mixin grid-center {
+    display: grid;
+    place-items: center;
+} 
+
+@mixin button {
+    height: 50px;
+    width: 150px;
+    font-size: 1.6rem;
+        font-weight: 600;
+        color: white;
+        border-radius: 20px;
+        border: none;
+        background-color: hsl(207, 26%, 17%);
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        cursor: pointer;
+        transition: 0.3s ease-in-out;
+}

@@ -1,0 +1,34 @@
+header {
+    h2 {
+        font-size: 1.8rem;
+    }
+
+    p {
+        font-size: 1.6rem;
+    }
+}
+
+p {
+    font-size: 1.6rem;
+
+}
+
+i {
+    font-size: 1.6rem;
+    font-weight: 300;
+}
+
+main {
+    h2 {
+        font-size: $details;
+    }
+
+    p {
+        font-size: $homepage;
+    }
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}

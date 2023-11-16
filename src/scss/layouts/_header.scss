@@ -1,0 +1,29 @@
+@import "../abstracts/mixins";
+
+header {
+    min-height: 6em;
+    margin: 0 auto;
+    @include flexbox-c-sb;
+    padding: 0 11%;
+    box-shadow: 0 0.5em 1em -0.125em rgba(10,10,10,.1), 0 0 0 1px rgba(10,10,10,.02); 
+
+  .dark-mode-container {
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+        border: solid 1px gray;
+        border-radius: 20px;
+        padding: .6rem;
+        transition: 0.3s ease-in-out;
+
+        &:hover {
+            box-shadow: 0 0.5em 1em -0.125em rgba(10,10,10,.1), 0 0 0 1px rgba(10,10,10,.02); 
+        }
+        i {
+            color: hsl(209, 23%, 22%);
+            margin-right: .4em;
+        }
+    }
+    
+}
+
