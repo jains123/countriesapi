@@ -1,25 +1,26 @@
+@use '../abstracts/mixins';
+@use '../abstracts/variables';
+
 main {
-    max-width: 1400px;
+    max-width: $maxWidth;
     margin: 0 auto;
     
     .countries-wrapper {
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        @include flexbox-c-c;
         flex-wrap: wrap;
-        max-width: 1400px;
+        max-width: $maxWidth;
         margin: 0 auto;
     }
 
 
      .country-container {
-        border-radius: 10px;
+        border-radius: $borderRadius;
         margin: 4em;
         width: 250px;
         min-height: 170px;
         @include flexbox;
         flex-direction: column;
-        box-shadow: 0 0.5em 1em -0.125em rgba(10,10,10,.1), 0 0 0 1px rgba(10,10,10,.02);
+        box-shadow: $shadow;
 
         img {
             aspect-ratio: 16/9;
@@ -37,8 +38,7 @@ main {
 
             div {
                 margin-top: 1.2em;
-                display: grid;
-                place-items: center;
+                @include grid-center;
 
                 button {
                     height: 4rem;

@@ -591,7 +591,6 @@ async function getData() {
         if (response.ok) {
             const data = await response.json();
             const wrapper = document.querySelector(".countries-wrapper");
-            console.log(data);
             if (Array.isArray(data)) data.forEach((country)=>{
                 const div = document.createElement("div");
                 div.innerHTML = `
@@ -609,13 +608,14 @@ async function getData() {
             `;
                 wrapper.append(div);
                 div.className = "country-container";
+            // localStorage.setItem('data', JSON.stringify(data));
+            // console.log(localStorage.getItem('data'));
             });
             else console.error("Data not in an array");
         } else console.error("API request failed");
     } catch (error) {
         console.error("An error occurred:", error);
     }
-    console.log("DATA DOWNLOADED");
 }
 
 },{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"gkKU3":[function(require,module,exports) {
@@ -663,17 +663,17 @@ async function getCountry() {
             console.log(data[0].name.nativeName);
             detailsContainer.innerHTML = `
             <div>
-            <strong><p id="nativeName">Native Name: ${data[0].name.nativeName.rus.official}</p></strong>
-            <strong><p id="population">Population:</p></strong>
-            <strong><p id="region">Region:</p></strong>
-            <strong><p id="subRegion">Sub Region:</p></strong>
-            <strong><p id="capital">Capital:</p></strong>
+            <strong><p>Native Name:</strong> ${data[0].name.nativeName.rus.official}</p>
+            <strong><p>Population:</strong> ${data[0].population.toLocaleString()}</p>
+            <strong><p>Region:</strong> ${data[0].region}</p>
+            <strong><p>Sub Region:</strong> ${data[0].subRegion}</p>
+            <strong><p>Capital:</strong></p>
         </div>
         <div>
-            <strong><p id="topLevelDomain">Top Level Domain:</p></strong>
-            <strong><p id="currencies">Currencies:</p></strong>
-            <strong><p id="languages">Languages:</p></strong>
-        </div>
+            <strong><p id="topLevelDomain">Top Level Domain:</strong></p>
+            <strong><p id="currencies">Currencies:</strong></p>
+            <strong><p id="languages">Languages:</strong></p>
+        </div> 
             `;
             imgContainer.innerHTML = `
             <img src="${data[0].flags.svg}" alt="country flag">

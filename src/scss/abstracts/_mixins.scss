@@ -1,19 +1,31 @@
+@use './variables';
+
 //FLEXBOX AND GRID
 
 @mixin flexbox {
     display: flex;
 }
 
-@mixin flexbox-c-sb {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
 @mixin flexbox-c-c {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+@mixin flexbox-c {
+    display: flex;
+    justify-content: center;
+}
+
+@mixin flexbox-sb {
+    display: flex;
+    justify-content: space-between;
+}
+
+@mixin flexbox-c-sb {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 @mixin flexbox-c-sa {
@@ -38,12 +50,11 @@
     height: 50px;
     width: 150px;
     font-size: 1.6rem;
-        font-weight: 600;
-        color: white;
-        border-radius: 20px;
-        border: none;
-        background-color: hsl(207, 26%, 17%);
-        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-        cursor: pointer;
-        transition: 0.3s ease-in-out;
+    font-weight: 600;
+    color: white;
+    border-radius: $borderRadius;
+    background-color: hsl(207, 26%, 17%);
+    box-shadow: $shadow;
+    cursor: pointer;
+    transition: $transition;
 }

@@ -7,7 +7,6 @@ async function getData() {
       if (response.ok) {
         const data = await response.json();
         const wrapper = document.querySelector(".countries-wrapper");
-        console.log(data)
         if (Array.isArray(data)) { 
           data.forEach(country => {
             const div = document.createElement("div");
@@ -27,6 +26,9 @@ async function getData() {
       
             wrapper.append(div);
             div.className = 'country-container';
+            // localStorage.setItem('data', JSON.stringify(data));
+            // console.log(localStorage.getItem('data'));
+
           });
         } else {
           console.error("Data not in an array");
@@ -37,8 +39,6 @@ async function getData() {
     } catch (error) {
       console.error("An error occurred:", error);
     }
-
-    console.log('DATA DOWNLOADED')
 } 
 
 export {getData};

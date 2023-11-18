@@ -16,3 +16,15 @@ $darkModeBackground: hsl(207, 26%, 17%);
 $lightModeText: hsl(200, 15%, 8%);
 $lightModeBackground: hsl(0, 0%, 98%);
 $lightModeElements: hsl(0, 0%, 100%);
+
+//SHADOW
+$shadow: 0 0.5em 1em -0.125em rgba(10,10,10,.1), 0 0 0 1px rgba(10,10,10,.02);
+
+//RADIUS
+$borderRadius: 10px;
+
+//MAX-WIDTH
+$maxWidth: 1400px;
+
+//TRANSITION
+$transition: 0.3s ease-in-out;

@@ -1,4 +1,4 @@
-6034
+6018
 55C:\Projects\countriesapi\node_modules\source-map-js\lib133445390775820593 1
 78C:\Projects\countriesapi\node_modules\caniuse-lite\data\features\es6-number.js133445390882032730 0
 37C:\Projects\countriesapi\src\index.js133446306557294057 0
@@ -58,7 +58,7 @@
 64C:\Projects\countriesapi\node_modules\csso\cjs\clean\Comment.cjs133445390784517442 0
 61C:\Projects\countriesapi\node_modules\semver\functions\neq.js133445390802336978 0
 61C:\Projects\countriesapi\node_modules\@parcel\optimizer-image133445390767719553 1
-29C:\Projects\countriesapi\dist133446352373403568 1
+29C:\Projects\countriesapi\dist133447986270570707 1
 91C:\Projects\countriesapi\node_modules\@swc\helpers\_\_async_generator_delegate\package.json133445390868163273 0
 47C:\Projects\countriesapi\node_modules\is-number133445390744773123 1
 71C:\Projects\countriesapi\node_modules\@swc\helpers\src\_export_star.mjs133445390890105119 0
@@ -70,7 +70,7 @@
 71C:\Projects\countriesapi\node_modules\lmdb\dependencies\lz4\lib\lz4hc.h133445390853569855 0
 69C:\Projects\countriesapi\node_modules\caniuse-lite\data\regions\DK.js133445390878906607 0
 92C:\Projects\countriesapi\node_modules\@babel\highlight\node_modules\ansi-styles\package.json133445390738405354 0
-55C:\Projects\countriesapi\src\scss\layouts\_country.scss133446352819132874 0
+55C:\Projects\countriesapi\src\scss\layouts\_country.scss133447969330929169 0
 83C:\Projects\countriesapi\node_modules\caniuse-lite\data\features\input-minlength.js133445390893802010 0
 82C:\Projects\countriesapi\node_modules\csso\cjs\restructure\4-restructShorthand.cjs133445390753553505 0
 67C:\Projects\countriesapi\node_modules\svgo\plugins\removeDoctype.js133445390837801830 0
@@ -88,7 +88,7 @@
 42C:\Projects\countriesapi\package-lock.json133445396890018480 0
 77C:\Projects\countriesapi\node_modules\@swc\helpers\cjs\_apply_decs_2203_r.cjs133445390744633236 0
 107C:\Projects\countriesapi\node_modules\@parcel\package-manager\test\fixtures\packages\peers-2.0\package.json133445390829968159 0
-56C:\Projects\countriesapi\src\scss\abstracts\_mixins.scss133441150601051296 0
+56C:\Projects\countriesapi\src\scss\abstracts\_mixins.scss133447985495118555 0
 56C:\Projects\countriesapi\node_modules\micromatch\LICENSE133445390738075613 0
 86C:\Projects\countriesapi\node_modules\caniuse-lite\data\features\picture-in-picture.js133445390907939429 0
 59C:\Projects\countriesapi\node_modules\msgpackr\package.json133445390799278735 0
@@ -106,7 +106,7 @@
 53C:\Projects\countriesapi\node_modules\is-json\LICENSE133445390746070638 0
 75C:\Projects\countriesapi\node_modules\@swc\helpers\src\_new_arrow_check.mjs133445390891430751 0
 78C:\Projects\countriesapi\node_modules\css-tree\lib\syntax\node\TypeSelector.js133445390876207723 0
-35C:\Projects\countriesapi\.gitignore133445428589169452 0
+35C:\Projects\countriesapi\.gitignore133447987580101720 0
 67C:\Projects\countriesapi\node_modules\css-select\lib\index.d.ts.map133445390825146666 0
 62C:\Projects\countriesapi\node_modules\to-regex-range\README.md133445390747074503 0
 78C:\Projects\countriesapi\node_modules\@parcel\node-resolver-core\lib\_empty.js133445390742816942 0
@@ -125,7 +125,6 @@
 71C:\Projects\countriesapi\node_modules\source-map-js\lib\mapping-list.js133445390755459859 0
 44C:\Projects\countriesapi\node_modules\@lezer133445390720802323 1
 43C:\Projects\countriesapi\node_modules\tslib133445390779669211 1
-60C:\Projects\countriesapi\dist\index.975ef6c8.js.map.18024.1h133446344824139163 0
 92C:\Projects\countriesapi\node_modules\csso\node_modules\css-tree\cjs\syntax\atrule\media.cjs133445390840889333 0
 83C:\Projects\countriesapi\node_modules\caniuse-lite\data\features\async-clipboard.js133445390812235553 0
 71C:\Projects\countriesapi\node_modules\svgo\plugins\removeHiddenElems.js133445390840134888 0
@@ -150,7 +149,7 @@
 57C:\Projects\countriesapi\node_modules\msgpackr\pack.d.cts133445390767104242 0
 71C:\Projects\countriesapi\node_modules\update-browserslist-db\index.d.ts133445390762076908 0
 58C:\Projects\countriesapi\node_modules\postcss-value-parser133445390763023051 1
-39C:\Projects\countriesapi\src\index.html133446235154737184 0
+39C:\Projects\countriesapi\src\index.html133447978014069963 0
 65C:\Projects\countriesapi\node_modules\type-fest\source\merge.d.ts133445390792545959 0
 63C:\Projects\countriesapi\node_modules\@parcel\core\lib\utils.js133445390865615040 0
 31C:\Projects\countriesapi\src\js133446110012890208 1
@@ -199,23 +198,23 @@
 81C:\Projects\countriesapi\node_modules\csso\node_modules\css-tree\dist\version.cjs133445390855427787 0
 60C:\Projects\countriesapi\node_modules\json5\lib\stringify.js133445390768063388 0
 54C:\Projects\countriesapi\node_modules\anymatch\LICENSE133445396877235185 0
-52C:\Projects\countriesapi\src\scss\layouts\_body.scss133441312609022629 0
+52C:\Projects\countriesapi\src\scss\layouts\_body.scss133447982969102845 0
 115C:\Projects\countriesapi\node_modules\@parcel\optimizer-htmlnano\node_modules\csso\lib\restructure\prepare\index.js133445390812827480 0
 70C:\Projects\countriesapi\node_modules\node-gyp-build-optional-packages133445390756395885 1
 95C:\Projects\countriesapi\node_modules\lmdb\dependencies\lmdb-data-v1\libraries\liblmdb\Doxyfile133445390759304761 0
 74C:\Projects\countriesapi\node_modules\caniuse-lite\data\features\srcset.js133445390913311842 0
 64C:\Projects\countriesapi\node_modules\msgpackr\dist\index.js.map133445390811851377 0
-54C:\Projects\countriesapi\src\scss\layouts\_header.scss133440283679229376 0
+54C:\Projects\countriesapi\src\scss\layouts\_header.scss133447981833471240 0
 74C:\Projects\countriesapi\node_modules\css-tree\cjs\syntax\pseudo\index.cjs133445390838755423 0
 66C:\Projects\countriesapi\node_modules\posthtml-parser\package.json133445390750603623 0
-53C:\Projects\countriesapi\src\scss\layouts\_intro.scss133441314798183470 0
+53C:\Projects\countriesapi\src\scss\layouts\_intro.scss133447985754509885 0
 72C:\Projects\countriesapi\node_modules\@parcel\core\src\InternalConfig.js133445390847813919 0
 64C:\Projects\countriesapi\node_modules\msgpackr\dist\node.cjs.map133445390821063674 0
 78C:\Projects\countriesapi\node_modules\@swc\helpers\cjs\_is_native_function.cjs133445390830677366 0
 65C:\Projects\countriesapi\node_modules\domelementtype\package.json133445390753936011 0
 69C:\Projects\countriesapi\node_modules\caniuse-lite\data\regions\PA.js133445390907155947 0
 97C:\Projects\countriesapi\node_modules\lmdb\dependencies\lmdb-data-v1\libraries\liblmdb\mdb_stat.c133445390825241492 0
-41C:\Projects\countriesapi\src\js\filter.js133446300707934510 0
+41C:\Projects\countriesapi\src\js\filter.js133446409492549745 0
 75C:\Projects\countriesapi\node_modules\type-fest\source\merge-exclusive.d.ts133445390791369105 0
 66C:\Projects\countriesapi\node_modules\css-tree\cjs\utils\clone.cjs133445390783753554 0
 77C:\Projects\countriesapi\node_modules\@swc\helpers\src\_apply_decs_2203_r.mjs133445390885263471 0
@@ -224,7 +223,7 @@
 69C:\Projects\countriesapi\node_modules\caniuse-lite\data\regions\AF.js133445390769967831 0
 93C:\Projects\countriesapi\node_modules\@parcel\optimizer-svgo\node_modules\css-tree\lib\syntax133445390841941311 1
 78C:\Projects\countriesapi\node_modules\@swc\helpers\src\_is_native_function.mjs133445390890956346 0
-40C:\Projects\countriesapi\src\js\fetch.js133446340225102988 0
+40C:\Projects\countriesapi\src\js\fetch.js133447962476108687 0
 66C:\Projects\countriesapi\node_modules\css-tree\lib\syntax\function133445390877100994 1
 61C:\Projects\countriesapi\node_modules\react-refresh\README.md133445390770471358 0
 71C:\Projects\countriesapi\node_modules\@swc\helpers\esm\_ts_generator.js133445390864226621 0
@@ -232,7 +231,7 @@
 69C:\Projects\countriesapi\node_modules\semver\ranges\to-comparators.js133445390822967622 0
 54C:\Projects\countriesapi\node_modules\.bin\js-yaml.cmd133445390955204721 0
 49C:\Projects\countriesapi\node_modules\timsort\src133445390764414719 1
-54C:\Projects\countriesapi\src\scss\layouts\_search.scss133440193566148929 0
+54C:\Projects\countriesapi\src\scss\layouts\_search.scss133447986314329367 0
 65C:\Projects\countriesapi\node_modules\@parcel\workers\lib\process133445390804085750 1
 72C:\Projects\countriesapi\node_modules\sass\types\logger\source_span.d.ts133445396879921903 0
 69C:\Projects\countriesapi\node_modules\caniuse-lite\data\regions\UZ.js133445390918542839 0
@@ -242,7 +241,7 @@
 75C:\Projects\countriesapi\node_modules\lightningcss-win32-x64-msvc\README.md133445390743403177 0
 48C:\Projects\countriesapi\node_modules\micromatch133445390745546798 1
 69C:\Projects\countriesapi\node_modules\caniuse-lite\data\regions\NR.js133445390906134501 0
-55C:\Projects\countriesapi\src\scss\base\_typography.scss133446173312941368 0
+55C:\Projects\countriesapi\src\scss\base\_typography.scss133447977605941445 0
 123C:\Projects\countriesapi\node_modules\@parcel\optimizer-htmlnano\node_modules\csso\lib\restructure\2-initialMergeRuleset.js133445390744773123 0
 57C:\Projects\countriesapi\node_modules\term-size\readme.md133445390766822748 0
 87C:\Projects\countriesapi\node_modules\css-select\node_modules\entities\lib\index.js.map133445390829552764 0
@@ -259,7 +258,7 @@
 63C:\Projects\countriesapi\node_modules\msgpackr\dist\test.js.map133445390826334377 0
 83C:\Projects\countriesapi\node_modules\abortcontroller-polyfill\dist\cjs-ponyfill.js133445390763101085 0
 78C:\Projects\countriesapi\node_modules\@babel\highlight\node_modules\color-name133445390756831991 1
-59C:\Projects\countriesapi\src\scss\abstracts\_variables.scss133425606759632802 0
+59C:\Projects\countriesapi\src\scss\abstracts\_variables.scss133447984144369249 0
 67C:\Projects\countriesapi\node_modules\lmdb\dependencies\lz4\lib\dll133445390849139872 1
 73C:\Projects\countriesapi\node_modules\css-tree\lib\syntax\node\Comment.js133445390861064328 0
 105C:\Projects\countriesapi\node_modules\msgpackr-extract\node_modules\.bin\node-gyp-build-optional-packages133445390955204721 0
@@ -293,7 +292,7 @@
 88C:\Projects\countriesapi\node_modules\csso\node_modules\css-tree\cjs\tokenizer\utils.cjs133445390854644369 0
 79C:\Projects\countriesapi\node_modules\caniuse-lite\data\features\textencoder.js133445390916071554 0
 71C:\Projects\countriesapi\node_modules\caniuse-lite\data\features\ime.js133445390892012583 0
-42C:\Projects\countriesapi\src\js\country.js133446351818584821 0
+42C:\Projects\countriesapi\src\js\country.js133447963734259653 0
 62C:\Projects\countriesapi\node_modules\safe-buffer\package.json133445390742961871 0
 61C:\Projects\countriesapi\node_modules\fill-range\package.json133445390737613441 0
 89C:\Projects\countriesapi\node_modules\@swc\helpers\_\_class_static_private_field_spec_set133445390874472755 1
@@ -927,7 +926,6 @@
 91C:\Projects\countriesapi\node_modules\@parcel\optimizer-htmlnano\node_modules\svgo\bin\svgo133445390741524434 0
 58C:\Projects\countriesapi\node_modules\parse-json\readme.md133445390746605504 0
 69C:\Projects\countriesapi\node_modules\utility-types\dist\index.js.map133445390768571931 0
-47C:\Projects\countriesapi\dist\index.5dd02a66.js133445423170415931 0
 86C:\Projects\countriesapi\node_modules\electron-to-chromium\full-chromium-versions.json133445390770101069 0
 58C:\Projects\countriesapi\node_modules\globals\package.json133445390749397102 0
 54C:\Projects\countriesapi\node_modules\lmdb\SECURITY.md133445390859822745 0
@@ -1479,7 +1477,7 @@
 69C:\Projects\countriesapi\node_modules\@parcel\core\test\test-utils.js133445390864414027 0
 58C:\Projects\countriesapi\node_modules\htmlnano\index.d.mts133445390849988106 0
 53C:\Projects\countriesapi\node_modules\semver\index.js133445390788773279 0
-51C:\Projects\countriesapi\dist\index.975ef6c8.js.map133446351819162893 0
+51C:\Projects\countriesapi\dist\index.975ef6c8.js.map133447978033835919 0
 72C:\Projects\countriesapi\node_modules\source-map-js\lib\binary-search.js133445390750927514 0
 65C:\Projects\countriesapi\node_modules\react-error-overlay\LICENSE133445390738104054 0
 76C:\Projects\countriesapi\node_modules\@parcel\transformer-html\lib\inline.js133445390770425804 0
@@ -2428,7 +2426,6 @@
 85C:\Projects\countriesapi\node_modules\caniuse-lite\data\features\rtcpeerconnection.js133445390910702687 0
 59C:\Projects\countriesapi\node_modules\js-yaml\lib\dumper.js133445390764431772 0
 114C:\Projects\countriesapi\node_modules\css-select\node_modules\entities\lib\esm\generated\decode-data-html.d.ts.map133445390797187171 0
-53C:\Projects\countriesapi\dist\country.5bdf0954.js.map133446262741809174 0
 114C:\Projects\countriesapi\node_modules\@parcel\optimizer-svgo\node_modules\css-tree\lib\syntax\node\SelectorList.js133445390852701373 0
 59C:\Projects\countriesapi\node_modules\js-yaml\lib\loader.js133445390790736982 0
 69C:\Projects\countriesapi\node_modules\caniuse-lite\data\regions\NA.js133445390905200659 0
@@ -2600,7 +2597,6 @@
 54C:\Projects\countriesapi\node_modules\htmlnano\test.js133445390808716486 0
 54C:\Projects\countriesapi\node_modules\globals\index.js133445390740622905 0
 62C:\Projects\countriesapi\node_modules\htmlnano\lib\helpers.cjs133445390769834326 0
-53C:\Projects\countriesapi\dist\country.9a6876a4.js.map133446262741809174 0
 92C:\Projects\countriesapi\node_modules\@parcel\optimizer-svgo\node_modules\css-tree\README.md133445390858335744 0
 85C:\Projects\countriesapi\node_modules\@swc\helpers\_\_is_native_function\package.json133445390878429303 0
 62C:\Projects\countriesapi\node_modules\htmlnano\lib\helpers.mjs133445390843550133 0
@@ -3077,7 +3073,6 @@
 71C:\Projects\countriesapi\node_modules\css-select\lib\esm\compile.js.map133445390812726341 0
 87C:\Projects\countriesapi\node_modules\csso\node_modules\css-tree\lib\parser\sequence.js133445390873918011 0
 90C:\Projects\countriesapi\node_modules\csso\node_modules\css-tree\lib\parser\SyntaxError.js133445390874747278 0
-47C:\Projects\countriesapi\dist\index.7f0f4d8e.js133445434539994893 0
 95C:\Projects\countriesapi\node_modules\csso\node_modules\css-tree\lib\lexer\generic-an-plus-b.js133445390864803273 0
 72C:\Projects\countriesapi\node_modules\@parcel\package-manager\index.d.ts133445390835204660 0
 92C:\Projects\countriesapi\node_modules\csso\node_modules\css-tree\lib\lexer\generic-urange.js133445390865017907 0
@@ -3954,7 +3949,7 @@
 69C:\Projects\countriesapi\node_modules\caniuse-lite\data\regions\BT.js133445390843624036 0
 70C:\Projects\countriesapi\node_modules\@swc\helpers\esm\_ts_metadata.js133445390864328847 0
 69C:\Projects\countriesapi\node_modules\caniuse-lite\data\regions\BW.js133445390843920889 0
-48C:\Projects\countriesapi\dist\index.b10d73a7.css133446352373310799 0
+48C:\Projects\countriesapi\dist\index.b10d73a7.css133447986270510460 0
 69C:\Projects\countriesapi\node_modules\caniuse-lite\data\regions\BY.js133445390844204256 0
 69C:\Projects\countriesapi\node_modules\caniuse-lite\data\regions\CL.js133445390849266119 0
 116C:\Projects\countriesapi\node_modules\@parcel\optimizer-svgo\node_modules\css-tree\lib\syntax\node\MediaQueryList.js133445390844814809 0
@@ -4245,7 +4240,6 @@
 107C:\Projects\countriesapi\node_modules\@parcel\optimizer-htmlnano\node_modules\csso\lib\restructure\utils.js133445390827526503 0
 76C:\Projects\countriesapi\node_modules\caniuse-lite\data\features\css-sel2.js133445390872764622 0
 82C:\Projects\countriesapi\node_modules\caniuse-lite\data\features\css-snappoints.js133445390873266587 0
-47C:\Projects\countriesapi\dist\index.693a59fc.js133445436069177498 0
 72C:\Projects\countriesapi\node_modules\@parcel\core\lib\Transformation.js133445390864605000 0
 111C:\Projects\countriesapi\node_modules\@parcel\optimizer-htmlnano\node_modules\css-select\lib\procedure.d.ts.map133445390792164530 0
 79C:\Projects\countriesapi\node_modules\caniuse-lite\data\features\css-subgrid.js133445390873523125 0
@@ -4555,7 +4549,7 @@
 56C:\Projects\countriesapi\node_modules\@swc\types\LICENSE133445390738075613 0
 63C:\Projects\countriesapi\node_modules\@swc\helpers\_\_construct133445390874904954 1
 58C:\Projects\countriesapi\node_modules\@swc\types\README.md133445390757960987 0
-42C:\Projects\countriesapi\dist\country.html133446345188177411 0
+42C:\Projects\countriesapi\dist\country.html133447976864292458 0
 62C:\Projects\countriesapi\node_modules\@swc\types\tsconfig.json133445390747804064 0
 54C:\Projects\countriesapi\node_modules\@swc\helpers\esm133445390866365241 1
 74C:\Projects\countriesapi\node_modules\@swc\helpers\_\_dispose\package.json133445390876305478 0
@@ -4625,7 +4619,7 @@
 75C:\Projects\countriesapi\node_modules\@swc\helpers\_\_ts_param\package.json133445390883304393 0
 79C:\Projects\countriesapi\node_modules\@swc\helpers\_\_to_primitive\package.json133445390882341353 0
 86C:\Projects\countriesapi\node_modules\@swc\helpers\_\_to_consumable_array\package.json133445390882203665 0
-52C:\Projects\countriesapi\dist\index.b10d73a7.css.map133446352373382249 0
+52C:\Projects\countriesapi\dist\index.b10d73a7.css.map133447986270560785 0
 82C:\Projects\countriesapi\node_modules\@swc\helpers\_\_sliced_to_array\package.json133445390881286333 0
 92C:\Projects\countriesapi\node_modules\@swc\helpers\_\_skip_first_generator_next\package.json133445390880953796 0
 92C:\Projects\countriesapi\node_modules\@parcel\optimizer-htmlnano\node_modules\svgo\README.md133445390844669349 0
@@ -5324,7 +5318,6 @@
 112C:\Projects\countriesapi\node_modules\@parcel\optimizer-svgo\node_modules\csso\lib\restructure\7-mergeRuleset.js133445390762489923 0
 115C:\Projects\countriesapi\node_modules\@parcel\optimizer-svgo\node_modules\csso\lib\restructure\8-restructRuleset.js133445390765488000 0
 103C:\Projects\countriesapi\node_modules\@parcel\optimizer-svgo\node_modules\csso\lib\restructure\index.js133445390810750795 0
-47C:\Projects\countriesapi\dist\index.739bf03c.js133445436069541932 0
 102C:\Projects\countriesapi\node_modules\@parcel\optimizer-svgo\node_modules\csso\lib\restructure\prepare133445390821903083 1
 103C:\Projects\countriesapi\node_modules\@parcel\optimizer-svgo\node_modules\csso\lib\restructure\utils.js133445390827526503 0
 74C:\Projects\countriesapi\node_modules\@parcel\diagnostic\src\diagnostic.js133445390773326036 0
@@ -5795,7 +5788,6 @@
 80C:\Projects\countriesapi\node_modules\@parcel\core\test\fixtures\parcel\index.js133445390845832959 0
 89C:\Projects\countriesapi\node_modules\@parcel\core\test\fixtures\main-global\package.json133445390872348186 0
 98C:\Projects\countriesapi\node_modules\@parcel\core\test\fixtures\local-plugin-config-pkg\.parcelrc133445390790490304 0
-49C:\Projects\countriesapi\dist\country.9a6876a4.js133446262741540087 0
 121C:\Projects\countriesapi\node_modules\@parcel\core\test\fixtures\local-plugin-config-pkg\node_modules\parcel-config-local133445390872013221 1
 73C:\Projects\countriesapi\node_modules\@babel\highlight\node_modules\chalk133445390756904486 1
 134C:\Projects\countriesapi\node_modules\@parcel\core\test\fixtures\local-plugin-config-pkg\node_modules\parcel-config-local\package.json133445390872104483 0
@@ -5872,7 +5864,7 @@
 63C:\Projects\countriesapi\node_modules\@parcel\core\lib\requests133445390867583757 1
 72C:\Projects\countriesapi\node_modules\@parcel\core\lib\RequestTracker.js133445390858803988 0
 80C:\Projects\countriesapi\node_modules\@parcel\core\lib\serializerCore.browser.js133445390861003434 0
-47C:\Projects\countriesapi\dist\index.a7103602.js133446345370850885 0
+47C:\Projects\countriesapi\dist\index.a7103602.js133447978033804842 0
 72C:\Projects\countriesapi\node_modules\@parcel\core\lib\serializerCore.js133445390861248993 0
 74C:\Projects\countriesapi\node_modules\@parcel\core\lib\summarizeRequest.js133445390861570970 0
 84C:\Projects\countriesapi\node_modules\@parcel\core\lib\requests\AssetGraphRequest.js133445390813155891 0
@@ -6011,7 +6003,6 @@
 84C:\Projects\countriesapi\node_modules\.bin\node-gyp-build-optional-packages-optional133445390955215587 0
 88C:\Projects\countriesapi\node_modules\.bin\node-gyp-build-optional-packages-optional.cmd133445390955215587 0
 88C:\Projects\countriesapi\node_modules\.bin\node-gyp-build-optional-packages-optional.ps1133445390955215587 0
-51C:\Projects\countriesapi\dist\index.7f0f4d8e.js.map133445434540113319 0
 80C:\Projects\countriesapi\node_modules\.bin\node-gyp-build-optional-packages-test133445390955215587 0
 84C:\Projects\countriesapi\node_modules\.bin\node-gyp-build-optional-packages-test.ps1133445390955215587 0
 79C:\Projects\countriesapi\node_modules\.bin\node-gyp-build-optional-packages.ps1133445390955215587 0
@@ -6021,15 +6012,8 @@
 51C:\Projects\countriesapi\node_modules\.bin\svgo.cmd133445390955215587 0
 51C:\Projects\countriesapi\node_modules\.bin\svgo.ps1133445390955244810 0
 65C:\Projects\countriesapi\node_modules\.bin\update-browserslist-db133445390955300699 0
-51C:\Projects\countriesapi\dist\index.5dd02a66.js.map133445423170639182 0
 69C:\Projects\countriesapi\node_modules\.bin\update-browserslist-db.cmd133445390955244810 0
-49C:\Projects\countriesapi\dist\country.5bdf0954.js133446262741540087 0
-62C:\Projects\countriesapi\dist\country.9a6876a4.js.map.11340.24133446173502581147 0
-51C:\Projects\countriesapi\dist\index.693a59fc.js.map133445436069490375 0
-51C:\Projects\countriesapi\dist\index.739bf03c.js.map133445436069614496 0
-47C:\Projects\countriesapi\dist\index.975ef6c8.js133446351819102869 0
-51C:\Projects\countriesapi\dist\index.a7103602.js.map133446345370948630 0
-60C:\Projects\countriesapi\dist\index.a7103602.js.map.18024.1f133446344824129141 0
-61C:\Projects\countriesapi\dist\index.b10d73a7.css.map.18024.1g133446344824129141 0
-40C:\Projects\countriesapi\dist\index.html133446345370471929 0
+47C:\Projects\countriesapi\dist\index.975ef6c8.js133447978033794872 0
+51C:\Projects\countriesapi\dist\index.a7103602.js.map133447978033835919 0
+40C:\Projects\countriesapi\dist\index.html133447978033994123 0
 57C:\Projects\countriesapi\.firebase\hosting.cHVibGlj.cache133445469043145318 0

@@ -1,4 +1,5 @@
 @use '../abstracts/variables';
+@use '../abstracts/mixins';
 
 .intro-container {
     width: 50%;
@@ -7,31 +8,18 @@
     left: 50%; 
     transform: translate(-50%, -50%);
     padding: 2em;
-    box-shadow: 0 0.5em 1em -0.125em rgba(10,10,10,.1), 0 0 0 1px rgba(10,10,10,.02); 
-    @include flexbox;
+    box-shadow: $shadow; 
+    @include flexbox-c-sb;
     flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
     text-align: center;
     background-color: hsl(0, 0%, 98%);
     z-index: 100;
-    border-radius: 20px;
-    transition: 0.3s ease-in-out;
-
+    border-radius: $borderRadius;
+    transition: $transition;
 }
 
 button {
-    height: 50px;
-    width: 150px;
-    font-size: 1.6rem;
-    font-weight: 600;
-    color: white;
-    border-radius: 20px;
-    border: none;
-    background-color: hsl(207, 26%, 17%);
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-    cursor: pointer;
-    transition: 0.3s ease-in-out;
+    @include button;
     &:hover {
         background-color: hsl(209, 23%, 22%);
     }

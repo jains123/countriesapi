@@ -8,7 +8,7 @@
         @include flexbox-c-c;
 
         .search-box {
-            box-shadow: 0 0.5em 1em -0.125em rgba(10,10,10,.1), 0 0 0 1px rgba(10,10,10,.02); 
+            box-shadow: $shadow;
             @include flexbox-c-sb;
 
             i {
@@ -30,11 +30,11 @@
         
 
     .drop {
-        box-shadow: 0 0.5em 1em -0.125em rgba(10,10,10,.1), 0 0 0 1px rgba(10,10,10,.02); 
+        box-shadow: $shadow;
         @include flexbox;
         align-items: center;
         height: 3.5rem;
-        padding: 0 1,2rem;
+        padding: 0 1.2rem;
         
         select {
             height: 100%;
