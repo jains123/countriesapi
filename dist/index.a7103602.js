@@ -1,6 +1,8 @@
 const countries = document.getElementsByClassName("country-container");
 const regions = document.getElementsByClassName("region");
 const searchField = document.getElementById("search");
+localStorage.setItem("visited", "true");
+let visited = localStorage.getItem("visited");
 function filter() {
     let selection = document.getElementById("filter").value;
     console.log(selection);
@@ -14,7 +16,6 @@ function filter() {
     }
 }
 function search() {
-    console.log("SEARCH STARTED");
     let searchTerm = document.getElementById("search").value;
     let firstLetter = searchTerm.charAt(0);
     let firstLetterCap = firstLetter.toUpperCase();
@@ -45,9 +46,9 @@ function hideInfo() {
     body.style.overflowY = "auto";
     setTimeout(()=>{
         info.style.display = "none";
-        console.log(info);
     }, 400);
 }
+if (visited === "true") hideInfo();
 const showInfo = ()=>{
     opacityWrapper.classList.add("wrapper");
     body.style.overflowY = "none";
@@ -63,16 +64,5 @@ infoBtn.addEventListener("click", showInfo);
 clearSearchBtn.addEventListener("click", clearSearch);
 searchField.addEventListener("change", search);
 dropDown.addEventListener("change", filter);
-const buttons = document.querySelectorAll(".country-value");
-console.log(buttons);
-buttons.forEach((button)=>{
-    button.addEventListener("click", function(event) {
-        console.log("tesdt");
-        const buttonValue = event.target.value;
-        localStorage.setItem("countryValue", buttonValue);
-        window.location.href = "./country.html";
-        console.log(localStorage.getItemItem("countryValue"));
-    });
-});
 
 //# sourceMappingURL=index.a7103602.js.map

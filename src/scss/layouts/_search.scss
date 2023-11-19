@@ -10,7 +10,7 @@
         .search-box {
             box-shadow: $shadow;
             @include flexbox-c-sb;
-
+            border-radius: $borderRadius;
             i {
                 margin: 0 2em;
             }
@@ -18,6 +18,11 @@
             input {
                 border: none; 
                 height: 3.5rem;
+                border-radius: $borderRadius;
+
+                &:focus-visible {
+                    outline: none;
+                }
             }
         }
 
@@ -31,6 +36,7 @@
 
     .drop {
         box-shadow: $shadow;
+        border-radius: $borderRadius;
         @include flexbox;
         align-items: center;
         height: 3.5rem;
@@ -39,6 +45,7 @@
         select {
             height: 100%;
             border: none;
+            background-color: $lightModeBackground;
         }
     }
 }

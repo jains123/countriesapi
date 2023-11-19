@@ -584,32 +584,43 @@ var _country = require("./js/country");
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "getData", ()=>getData);
+function createCountryContainer(country) {
+    const div = document.createElement("div");
+    div.innerHTML = `
+    <img src="${country.flags.svg}" loading="lazy">
+    <div class="country-info">
+      <h2>${country.name.common}</h2>
+      <br> 
+      <p><strong>Population:</strong> ${country.population.toLocaleString()}</p>
+      <p><strong>Region:</strong> <span class="region">${country.region}</span></p>
+      <p><strong>Capital:</strong> ${country.capital}</p>
+    <div>
+      <button class="country-value">More details</button>
+    </div>
+    </div>
+  `;
+    const button = div.querySelector(".country-value");
+    button.addEventListener("click", ()=>{
+        navigateToCountryDetails(country);
+    });
+    div.className = "country-container";
+    return div;
+}
+function navigateToCountryDetails(country) {
+    localStorage.setItem("selectedCountry", JSON.stringify(country.cca2));
+    window.location.href = `/country.html`;
+}
 const apiUrl = "https://restcountries.com/v3.1/all";
 async function getData() {
     try {
         const response = await fetch("https://restcountries.com/v3.1/all");
         if (response.ok) {
             const data = await response.json();
+            console.log(data);
             const wrapper = document.querySelector(".countries-wrapper");
             if (Array.isArray(data)) data.forEach((country)=>{
-                const div = document.createElement("div");
-                div.innerHTML = `
-              <img src="${country.flags.svg}" loading="lazy">
-              <div class="country-info">
-                <h2>${country.name.common}</h2>
-                <br> 
-                <p><strong>Population:</strong> ${country.population.toLocaleString()}</p>
-                <p><strong>Region:</strong> <span class="region">${country.region}</span></p>
-                <p><strong>Capital:</strong> ${country.capital}</p>
-                <div>
-                  <button value="${country.name.common}" class="country-value">More details</button>
-                </div>
-              </div>
-            `;
-                wrapper.append(div);
-                div.className = "country-container";
-            // localStorage.setItem('data', JSON.stringify(data));
-            // console.log(localStorage.getItem('data'));
+                const container = createCountryContainer(country);
+                wrapper.append(container);
             });
             else console.error("Data not in an array");
         } else console.error("API request failed");
@@ -649,31 +660,33 @@ exports.export = function(dest, destName, get) {
 };
 
 },{}],"9pWU5":[function(require,module,exports) {
-// https://restcountries.com/v3.1/name/
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "getCountry", ()=>getCountry);
-const detailsContainer = document.getElementById("details");
+const detailsContainer = document.querySelector(".details-container");
 const imgContainer = document.querySelector(".img");
+let dynamicCode = localStorage.getItem("selectedCountry");
+let code = dynamicCode.replace(/["']/g, "");
 async function getCountry() {
     try {
-        const response = await fetch("https://restcountries.com/v3.1/name/Uzbekistan");
+        const response = await fetch(`https://restcountries.com/v3.1/alpha?codes=${code}`);
         if (response.ok) {
             const data = await response.json();
-            console.log(data[0].name.nativeName);
             detailsContainer.innerHTML = `
-            <div>
-            <strong><p>Native Name:</strong> ${data[0].name.nativeName.rus.official}</p>
-            <strong><p>Population:</strong> ${data[0].population.toLocaleString()}</p>
-            <strong><p>Region:</strong> ${data[0].region}</p>
-            <strong><p>Sub Region:</strong> ${data[0].subRegion}</p>
-            <strong><p>Capital:</strong></p>
-        </div>
-        <div>
-            <strong><p id="topLevelDomain">Top Level Domain:</strong></p>
-            <strong><p id="currencies">Currencies:</strong></p>
-            <strong><p id="languages">Languages:</strong></p>
-        </div> 
+            <h2>${data[0].name.official}</h2>
+            <div class="details">
+                <div>
+                    <strong><p>Native Name:</strong> ${data[0].name.nativeName.official}</p>
+                    <strong><p>Population:</strong> ${data[0].population.toLocaleString()}</p>
+                    <strong><p>Region:</strong> ${data[0].region}</p>
+                    <strong><p>Sub Region:</strong> ${data[0].subregion}</p>
+                    <strong><p>Capital:</strong> ${data[0].capital}</p>
+                </div>
+                <div>
+                    <strong><p id="currencies">Currencies:</strong> ${data[0].currencies}</p>
+                    <strong><p id="languages">Languages:</strong></p>
+                </div> 
+            </div>
             `;
             imgContainer.innerHTML = `
             <img src="${data[0].flags.svg}" alt="country flag">

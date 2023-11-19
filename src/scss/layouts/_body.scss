@@ -6,10 +6,12 @@ main {
     margin: 0 auto;
     
     .countries-wrapper {
-        @include flexbox-c-c;
         flex-wrap: wrap;
         max-width: $maxWidth;
         margin: 0 auto;
+        display: none;
+        align-items: center;
+        justify-content: center;
     }
 
 
