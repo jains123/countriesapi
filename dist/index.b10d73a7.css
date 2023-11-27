@@ -235,6 +235,50 @@ button:hover {
   margin-top: 5em;
 }
 
+@media screen and (width <= 660px) {
+  .search-container {
+    flex-direction: column;
+    margin: 4rem 3rem 1rem !important;
+  }
+
+  .search-container .search-box-container {
+    justify-content: space-between;
+  }
+
+  .search-container .drop {
+    margin-top: 2rem;
+  }
+
+  .country-container {
+    width: 80vw !important;
+  }
+
+  .country-main {
+    padding: 2rem;
+  }
+
+  .country-main .back-btn {
+    margin-bottom: 2em;
+  }
+
+  .country-main .container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .country-main .container .img {
+    width: 80vw;
+  }
+
+  .country-main .container .img img {
+    width: 100%;
+  }
+
+  .country-main .container .details-container {
+    margin-left: 0;
+  }
+}
+
 header h2 {
   font-size: 1.8rem;
 }

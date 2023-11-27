@@ -21,11 +21,9 @@ async function getCountry() {
                     <strong><p>Region:</strong> ${data[0].region}</p>
                     <strong><p>Sub Region:</strong> ${data[0].subregion}</p>
                     <strong><p>Capital:</strong> ${data[0].capital}</p>
-                </div>
-                <div>
                     <strong><p id="currencies">Currency:</strong> ${currencies}</p>
-                    <strong><p id="languages">Languages:</strong></p>
-                </div> 
+
+                </div>
             </div>
             `;
             imgContainer.innerHTML = `

@@ -1,0 +1,41 @@
+@media screen and (max-width: 660px) {
+    .search-container {
+        margin: 4rem 3rem 1rem !important;
+        flex-direction: column;
+
+        .search-box-container {
+            justify-content: space-between;
+        }
+        .drop {
+            margin-top: 2rem;
+        }
+    }
+
+    .country-container {
+        width: 80vw !important;
+    }
+
+    .country-main {
+        padding: 2rem;
+
+        .back-btn {
+            margin-bottom: 2em;
+        }
+
+        .container {
+            flex-direction: column;
+            align-items: center;
+            .img {
+                width: 80vw;
+
+                img {
+                    width: 100%;
+                }
+            }
+
+            .details-container {
+                margin-left: 0;
+            }
+        }
+    }
+}
