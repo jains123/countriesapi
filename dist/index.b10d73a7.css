@@ -52,7 +52,6 @@ main .country-container {
 
 main .country-container img {
   aspect-ratio: 16 / 9;
-  flex: .15;
 }
 
 main .country-container .country-info {
@@ -172,7 +171,7 @@ button:hover {
 
 .country-main {
   flex-direction: column;
-  height: 100vh;
+  min-height: 100vh;
   padding: 5em;
   display: flex;
 }
@@ -252,7 +251,9 @@ button:hover {
   .country-container {
     width: 80vw !important;
   }
+}
 
+@media screen and (width <= 1000px) {
   .country-main {
     padding: 2rem;
   }
@@ -267,15 +268,21 @@ button:hover {
   }
 
   .country-main .container .img {
-    width: 80vw;
+    width: 100%;
   }
 
   .country-main .container .img img {
     width: 100%;
+    max-height: 250px;
   }
 
   .country-main .container .details-container {
+    width: 100%;
     margin-left: 0;
+  }
+
+  .country-main .container .details-container h2 {
+    text-align: center;
   }
 }
 
@@ -326,10 +333,8 @@ html {
 
 body {
   background-color: #fafafa;
-  min-height: 1400px;
   margin: 0 auto;
   transition: all .3s ease-in-out;
-  overflow-y: hidden;
 }
 
 .wrapper {
